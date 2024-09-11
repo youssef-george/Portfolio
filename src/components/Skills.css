@@ -1,0 +1,19 @@
+.skills-section {
+    background-color: #1e1e2f;
+    color: #fff;
+    padding: 40px;
+    border-radius: 0px;
+}
+
+.skills-list, .projects-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.skill, .project {
+    background-color: #4a4a6d;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
