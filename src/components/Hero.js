@@ -1,4 +1,6 @@
 import React from "react";
+import './hero.css';
+import img from "../images/yo.png";
 
 function Hero() {
   return (
@@ -10,7 +12,7 @@ function Hero() {
       </div>
       
       <div className="hero-image">
-        <img src="public\yo.png" alt="Youssef George" /> {/* تأكد من أن الصورة في public */}
+        <img src={img} alt="Youssef George" />
       </div>
     </section>
   );
