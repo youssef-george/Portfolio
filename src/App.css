@@ -4,21 +4,16 @@ body {
   background-color: #f4f4f4;
 }
 
+/* تنسيق الهيدر */
 header {
   background: linear-gradient(135deg, #1f1f47, #2f2f7a);
-  padding: 20px 0;
+  padding: 10px 0;
   position: fixed;
   width: 100%;
   top: 0;
   z-index: 100;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background-color: #fff;
-  z-index: 10;
-  padding: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  height: 60px; /* تأكد من تعيين ارتفاع للهيدر */
 }
 
 header nav ul {
@@ -26,6 +21,8 @@ header nav ul {
   display: flex;
   justify-content: center;
   gap: 20px;
+  margin: 0; /* إزالة المسافات الافتراضية */
+  padding: 0; /* إزالة الحشوة الافتراضية */
 }
 
 header nav ul li a {
@@ -35,18 +32,54 @@ header nav ul li a {
   font-weight: bold;
 }
 
-
+/* تنسيق الحاوية الرئيسية (hero) */
 .hero {
-  height: 100vh;
   display: flex;
-  justify-content: center;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
+  padding: 50px;
+  height: calc(100vh - 60px); /* تأكد أن الحاوية تأخذ كامل الشاشة مع خصم ارتفاع الهيدر */
   background-color: #344b74;
   color: rgb(255, 255, 255);
   text-align: center;
-  
+  box-sizing: border-box;
+  margin-top: 60px; /* تعويض الهيدر الثابت */
 }
+
+.hero-content {
+  flex: 0.6;
+}
+
+.hero-image {
+  flex: 0.4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-image img {
+  width: 60%;
+  max-width: 400px;
+  border-radius: 30px;
+  height: auto;
+}
+
+/* استجابة للشاشات الصغيرة */
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column; /* جعل المحتوى عموديًا على الشاشات الصغيرة */
+    text-align: center;
+    height: auto; /* السماح للارتفاع بالتكيف مع المحتوى */
+    padding-top: 100px; /* تأكيد وجود مساحة كافية فوق النص تحت الهيدر */
+    margin-top: 0; /* إزالة أي مسافة مضافة من النسخة الكبيرة */
+  }
+
+  .hero-image img {
+    width: 80%; /* تكبير الصورة قليلاً على الشاشات الصغيرة */
+    max-width: 300px; /* تعيين عرض أقصى للصورة على الشاشات الصغيرة */
+  }
+}
+
 
 .hero h1 {
   font-size: 40px;
@@ -59,12 +92,20 @@ header nav ul li a {
 }
 
 .cta-button {
-  background-color: #61dafb;
-  color: #282c34;
   padding: 10px 20px;
+  background-color: #007bff; /* اللون الأساسي للزر */
+  color: white; /* لون النص */
   text-decoration: none;
-  border-radius: 5px;
+  border-radius: 5px; /* جعل الزوايا مستديرة */
+  transition: background-color 0.3s ease; /* تأثير التحويل عند التمرير */
+  margin-top: 20px;
 }
+
+/* عند التمرير على الزر */
+.cta-button:hover {
+  background-color: #0056b3; /* لون مختلف عند التمرير */
+}
+
 
 .about, .projects, .contact {
   padding: 100px 20px;

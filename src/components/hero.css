@@ -46,7 +46,7 @@
 .hero-image img {
   width: 60%;
   max-width: 400px;
-  border-radius: 30px;
+  border-radius: 20px;
   height: auto;
 }
 
@@ -56,12 +56,12 @@
     flex-direction: column; /* جعل المحتوى عموديًا على الشاشات الصغيرة */
     text-align: center; /* جعل النص في المنتصف */
     height: auto; /* إلغاء ارتفاع الشاشة الكامل للشاشات الصغيرة */
-    padding: 30px; /* تقليل الحشوة على الشاشات الصغيرة */
+    padding: 20px; /* تقليل الحشوة على الشاشات الصغيرة */
   }
 
   .hero-image img {
     width: 80%; 
-    max-width: 300px;
+    max-width: 200px;
   }
 
   .hero-image img {
@@ -69,6 +69,7 @@
     max-width: 400px;
     border-radius: 30px;
     height: auto;
+    padding:10;
     margin-top: -20px; /* تحريك الصورة لأعلى باستخدام margin */
   }
   

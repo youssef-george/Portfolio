@@ -8,7 +8,6 @@ function Hero() {
       <div className="hero-content">
         <h1>Hello, I'm Youssef George</h1>
         <p>Frontend Developer | React.js</p>
-        <a href="#contact" className="cta-button">Contact Me</a>
       </div>
       
       <div className="hero-image">
