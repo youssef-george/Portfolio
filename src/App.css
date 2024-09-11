@@ -21,7 +21,7 @@ header nav ul {
 }
 
 header nav ul li a {
-  font-size: 25px;
+  font-size: 20px;
   color: rgb(209, 224, 236);
   text-decoration: none;
   font-weight: bold;
@@ -31,14 +31,15 @@ header nav ul li a {
   height: 100vh;
   display: flex;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
-  background-color: #282c34;
+  background-color: #344b74;
   color: rgb(255, 255, 255);
   text-align: center;
 }
 
 .hero h1 {
-  font-size: 3em;
+  font-size: 40px;
   margin-bottom: 10px;
 }
 
@@ -66,13 +67,7 @@ header nav ul li a {
   gap: 20px;
 }
 
-.projects .project-card {
-  background-color: white;
-  padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  width: 300px;
-}
+
 
 .contact form {
   display: flex;
@@ -102,19 +97,23 @@ header nav ul li a {
 }
 
 .contact-icons a {
-  color: #333;
+  color: #063a70;
   transition: transform 0.2s ease;
 }
 
 .contact-icons a:hover {
-  transform: scale(1.2); /* تكبير الأيقونات عند التمرير */
-  color: #0077b5; /* تغيير اللون عند التمرير */
+  transform: scale(1.5); /* تكبير الأيقونات عند التمرير */
+  color: #23aaf8; /* تغيير اللون عند التمرير */
 }
 
 .contact-icons a:hover:nth-child(2) {
-  color: #333; /* اللون عند تمرير GitHub */
+  color: #373742; /* اللون عند تمرير GitHub */
 }
 
 .contact-icons a:hover:nth-child(3) {
-  color: #f50; /* اللون عند تمرير رابط السيرة الذاتية */
+  color: rgb(185, 183, 183); /* اللون عند تمرير رابط السيرة الذاتية */
+}
+
+.contact-icons a:hover:nth-child(4) {
+  color: rgb(69, 207, 80); /* اللون عند تمرير رابط واتساب */
 }

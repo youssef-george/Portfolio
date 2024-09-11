@@ -16,15 +16,17 @@ function Contact() {
           <FaGithub size={50} />
         </a>
 
-        {/*   whatsapp  */}
-        <a href="https://drive.google.com/file/d/1e5_fqQGTllKbOTiLppvK6KgfKFXXKijG/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+        {/*   cv */}
+        <a href="https://drive.google.com/file/d/1j8G5yfE1vVFrJtrIFLC__jWbullusRiA/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
           <FaFileAlt size={50} />
         </a>
         
+        {/*   whatsapp */}
         <a href="https://wa.me/+201277970458" target="_blank" rel="noopener noreferrer">
           <FaWhatsapp size={50} />
         </a>
       </div>
+      
     </section>
   );
 }

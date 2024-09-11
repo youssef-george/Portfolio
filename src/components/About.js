@@ -3,7 +3,8 @@ import './About.css'; // تأكد من إنشاء وتخصيص ملف CSS
 
 function About() {
   return (
-    <section className="about-section">
+
+    <section id="about" className="about-section">
       <div className="about-content">
         <div className="about-text">
           <h2>About Me</h2>
@@ -15,13 +16,12 @@ function About() {
           <p>Detail-oriented with a strong emphasis on clean and maintainable code.</p>
           <p>Ability to handle multiple projects, meet deadlines, and adapt to changing priorities.</p>
           <p>Committed to continuous learning and staying up-to-date with industry trends.</p>
-          <a href="https://drive.google.com/file/d/1e5_fqQGTllKbOTiLppvK6KgfKFXXKijG/view?usp=drive_link" className="cv-button" target="_blank" rel="noopener noreferrer">
+          <a href="https://drive.google.com/file/d/1e5_fqQGTllKbOTiLppvK6KgfKFXXKijG/view?usp=drive_link" 
+          className="cv-button" target="_blank" rel="noopener noreferrer">
             Check My CV
           </a>
         </div>
-        <div className= "about-image" >
-          <img src="\Youssef George.jpg" alt="Youssef George" />
-        </div>
+
       </div>
     </section>
   );

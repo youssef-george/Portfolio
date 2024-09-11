@@ -47,14 +47,3 @@
   .cv-button:hover {
     background-color: #08509d;
   }
-  
-  .about-image {
-    flex: 0.4;
-    padding-left: 10px;
-  }
-  
-  .about-image img {
-    width: 100%;
-    border-radius: 50px;
-  }
-  

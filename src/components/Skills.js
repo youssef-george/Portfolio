@@ -20,7 +20,7 @@ const Projects = [
 
 const Skills = () => {
     return (
-        <div className="skills-section"> {/* إضافة الكلاس هنا */}
+        <div id="skills" className="skills-section"> {/* إضافة الكلاس هنا */}
             <h2>Skills</h2>
             <p>I am proficient and open to several programming languages, these are some of the ones I use the most.</p>
             <div className="skills-list"> {/* إضافة الكلاس هنا */}

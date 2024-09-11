@@ -1,0 +1,20 @@
+/* src/components/Footer.css */
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background: linear-gradient(135deg, #1f1f47, #d4d4d7);    
+    border-top: 1px solid #ffffff;
+  }
+  
+  .footer p {
+    margin: 0;
+    font-size: 13px;
+  }
+  .footer img {
+    max-width: 100%; /* يضمن أن الصورة تتناسب مع حجم الشاشة */
+    height: auto;    /* يحافظ على نسبة العرض إلى الارتفاع */
+  }
