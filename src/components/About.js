@@ -1,5 +1,5 @@
 import React from 'react';
-import './About.css'; // تأكد من إنشاء وتخصيص ملف CSS
+import '../App.css';
 
 function About() {
   return (
