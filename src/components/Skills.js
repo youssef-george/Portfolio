@@ -46,7 +46,10 @@ const Projects = [
         name: "Frontend Web Page for To-Do App",
         link: "https://youssef-george.github.io/To-Do-App/"
     },
-    { name: "Frontend Web Page for Cafe" },
+    {
+        name: "Frontend Web Page for Cafe",
+        link: "https://youssef-george.github.io/ReactProject/"
+    },
     { name: "Frontend Web Page for Pizza Restaurant" },
     { name: "Face Recognition Neural Network Project using Python and AI concepts" },
     { name: "Gym database system project" },

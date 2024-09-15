@@ -16,7 +16,7 @@ function About() {
           <p>Detail-oriented with a strong emphasis on clean and maintainable code.</p>
           <p>Ability to handle multiple projects, meet deadlines, and adapt to changing priorities.</p>
           <p>Committed to continuous learning and staying up-to-date with industry trends.</p>
-          <a href="https://drive.google.com/file/d/1shvz-xf0Pj3hbW1hYAfOuPHKvUPpzN_x/view?usp=drive_link" 
+          <a href="https://drive.google.com/file/d/1T40Rbij6LG0xYXaI10p7EwK9WpyO8Rc1/view?usp=drive_link" 
           className="cv-button" target="_blank" rel="noopener noreferrer">
             Check My CV
           </a>

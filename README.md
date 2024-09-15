@@ -1,3 +1,17 @@
+# Portfolio Website
+
+This is my personal portfolio website built using React.js, showcasing my skills and projects as a front-end developer.
+
+## Features:
+- A clean and modern design to showcase my skills and projects.
+- Sections include Home, About, Skills, Projects, and Contact.
+- Links to live demos and GitHub repositories for each project.
+- Fully responsive design to provide an optimal viewing experience on all devices.
+
+The website serves as a platform to demonstrate my expertise and projects to potential employers and clients.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

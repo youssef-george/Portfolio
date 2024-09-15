@@ -8,7 +8,7 @@ function Contact() {
       <div className="contact-icons">
         {/* رابط LinkedIn */}
         <a href="https://www.linkedin.com/in/youssef-george-0ba509298/" target="_blank" rel="noopener noreferrer">
-          <FaLinkedin size={50} />
+          <FaLinkedin size={60} />
         </a>
 
         {/* رابط GitHub */}
@@ -17,8 +17,8 @@ function Contact() {
         </a>
 
         {/*   cv */}
-        <a href="https://drive.google.com/file/d/1shvz-xf0Pj3hbW1hYAfOuPHKvUPpzN_x/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
-          <FaFileAlt size={50} />
+        <a href="https://drive.google.com/file/d/1T40Rbij6LG0xYXaI10p7EwK9WpyO8Rc1/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+          <FaFileAlt size={60} />
         </a>
         
         {/*   whatsapp */}
