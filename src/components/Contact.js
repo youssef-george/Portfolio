@@ -1,14 +1,25 @@
 import React from 'react';
 import { FaLinkedin, FaGithub, FaFileAlt, FaWhatsapp } from 'react-icons/fa'; // استيراد الأيقونات
+import img from "../images/yc.png";
+
 
 function Contact() {
   return (
     <section id="contact" className="contact">
-      <h2>Contact Me</h2>
+      <h1>Contact Me</h1>     
+      
+      
+
+      <div className="contact-image">
+        <img src={img} alt="Youssef George" />
+      </div>
+
+
+      
       <div className="contact-icons">
         {/* رابط LinkedIn */}
         <a href="https://www.linkedin.com/in/youssef-george-0ba509298/" target="_blank" rel="noopener noreferrer">
-          <FaLinkedin size={60} />
+          <FaLinkedin size={50} />
         </a>
 
         {/* رابط GitHub */}
@@ -18,7 +29,7 @@ function Contact() {
 
         {/*   cv */}
         <a href="https://drive.google.com/file/d/1T40Rbij6LG0xYXaI10p7EwK9WpyO8Rc1/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
-          <FaFileAlt size={60} />
+          <FaFileAlt size={50} />
         </a>
         
         {/*   whatsapp */}
