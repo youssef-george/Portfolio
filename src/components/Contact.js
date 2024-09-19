@@ -28,7 +28,7 @@ function Contact() {
         </a>
 
         {/*   cv */}
-        <a href="https://drive.google.com/file/d/1T40Rbij6LG0xYXaI10p7EwK9WpyO8Rc1/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+        <a href="https://drive.google.com/file/d/1M1dWg6mS3vhna33ni3nZhel8WT52ACOp/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
           <FaFileAlt size={50} />
         </a>
         
